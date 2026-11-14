@@ -1,0 +1,14 @@
+# Analysis environment (local computer; c00, c04, c05, c06). Versions read on 13 November 2026.
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.2
+matplotlib        # version not recorded
+openpyxl          # version not recorded (Excel output)
+# Training and prediction environment (Google Colab, T4 GPU; c01, c01a, c02, c03).
+# Final model and prediction: Python 3.13.16, torch 2.14.1+cu130, torchvision 0.29.1+cu130.
+# Library versions were not recorded for the cross-validation runs (8-10 November 2026).
+torch==2.14.1
+torchvision==0.29.1
+pillow            # version not recorded
+requests          # version not recorded (c01 HTTP range requests)
